@@ -1,6 +1,12 @@
+/* Google Font integration  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;0,800;1,400&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
 :root {
     --primary-color: #f52a7e;
     --secondary-color: #f9ba24;
+    --tertiary-color:  #3F07F8;
   }
 
   .primary-bg{
@@ -8,12 +14,6 @@
   }
   .primary-text{
     color: var(--primary-color);
-  }
-  .secondary-bg{
-    background-color: var(--secondary-color);
-  }
-  .secondary-text{
-    color: var(--secondary-color);
   }
   .primary-btn{
     background-color: var(--primary-color);
@@ -23,8 +23,28 @@
     padding: 9px 25px;
     cursor: pointer;
   }
+  .secondary-bg{
+    background-color: var(--secondary-color);
+  }
+  .secondary-text{
+    color: var(--secondary-color);
+  }
   .secondary-btn{
     background-color: var(--secondary-color);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+  }
+  .tertiary-bg{
+    background-color: var(--tertiary-color);
+  }
+  .tertiary-text{
+    color: var(--tertiary-color);
+  }
+  .tertiary-btn{
+    background-color: var(--tertiary-color);
     color: #fff;
     border: none;
     border-radius: 8px;
