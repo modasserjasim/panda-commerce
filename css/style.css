@@ -81,3 +81,45 @@ body{
     background-color: #F4F4F4;
     padding: 60px 0;
   }
+  #subscribers{
+    margin: 60px 0;
+  }
+  .subscribe{
+    padding: 150px 0;
+  }
+  .subscriber-input{
+    padding: 20px 150px;
+    border: 0;
+    font-size: 22px;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+  }
+
+  .subscriber-btn {
+    background: var(--primary-color);
+    color: #fff;
+    font-size: 22px;
+    padding: 20px 40px;
+    border: 0;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+@media screen and (max-width:720px) {
+    .subscriber-input{
+        padding: 20px 30px;
+        border: 0;
+        font-size: 22px;
+        border-bottom-left-radius: 7px;
+        border-top-left-radius: 7px;
+      }
+      .subscriber-btn {
+        background: var(--primary-color);
+        color: #fff;
+        font-size: 22px;
+        padding: 20px 20px;
+        border: 0;
+        border-bottom-right-radius: 7px;
+        border-top-right-radius: 7px;
+    }
+}
