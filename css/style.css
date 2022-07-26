@@ -22,6 +22,24 @@ body{
     border-radius: 8px;
     padding: 9px 25px;
     cursor: pointer;
+    transition: 1s;
+  }
+  .primary-btn:hover{
+    background-color: #000;
+    transition: 1.5s;
+  }
+  .black-btn{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 14px 30px;
+    cursor: pointer;
+    transition: 1.5s;
+  }
+  .black-btn:hover{
+    background-color: var(--primary-color);
+    transition: 1.5s;
   }
   .secondary-bg{
     background-color: var(--secondary-color);
@@ -54,4 +72,12 @@ body{
   .hero-bg{
     background-color: #FEEAE9;
   }
-  
+  #shoes{
+    background-color: #F4F4F4;
+    padding: 60px 0;
+  }
+
+  #backpack{
+    background-color: #F4F4F4;
+    padding: 60px 0;
+  }
